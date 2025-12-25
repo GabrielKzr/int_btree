@@ -15,22 +15,8 @@ int main() {
     btree_add(btree, 1);
     btree_add(btree, 20);
 
-    printf("cheguei aqui\n");
-
     btree_print(btree);
 
-    printf("printado\n");
-
-    // btree_remove(btree, 10);
-
-    // printf("removi\n");
-
-    // btree_print(btree);
-
-    // btree_clear_all(btree);
-
-    // printf("removeu tudo: size -> %d\n", btree->size);
-    
     int val = 15;
     struct btree_node_t* ret = btree_find(btree, cmp, val);
 
@@ -66,8 +52,6 @@ int main() {
         printf("%d, ", list_2[i]->value);
     }
     printf("]\n");
-
-
 
 
     printf("ok\n");

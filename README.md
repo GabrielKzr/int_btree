@@ -55,9 +55,7 @@ make run
 
 Example output from the included `main.c`:
 ```
-cheguei aqui
 [ 10 : [ 5 : [ 1 : ,  ] ,  ] , [ 15 : , [ 20 : ,  ]  ]  ] 
-printado
 ret->value 15
 [ 10, 5, 1, 15, 20, ]
 [ 10, 5, 15, 1, 20, ]
