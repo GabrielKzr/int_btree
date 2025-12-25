@@ -136,4 +136,4 @@ Header: `inc/btree.h`
 
 ## Future Improvements
 
-- Implement a hash function to use not just integers, but also any kind of data (void *)
+- Implement a hash function to use not just integers, but also any kind of data (`void *`)
